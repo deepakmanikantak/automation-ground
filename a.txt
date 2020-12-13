@@ -1,2 +1,8 @@
 This is Deepak Code
+
 Rahul is adding New code
+
+Added New method
+
+Adding Custom methods for re usable
+
