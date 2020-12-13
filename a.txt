@@ -6,3 +6,6 @@ Added New method
 
 Adding Custom methods for re usable
 
+
+
+Edited by Rahul
