@@ -1,2 +1,4 @@
 This is Deepak Code
 Added New method
+
+Adding Custom methods for re usable - Pending
