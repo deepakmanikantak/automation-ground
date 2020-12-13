@@ -6,3 +6,4 @@ Added New method
 
 Adding Custom methods for re usable
 
+Added Krishna's data
