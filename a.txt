@@ -1,1 +1,2 @@
 This is Deepak Code
+Added New method
