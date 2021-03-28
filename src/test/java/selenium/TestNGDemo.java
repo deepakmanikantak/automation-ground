@@ -30,7 +30,7 @@ public class TestNGDemo {
     }
 
     @Test
-    public void verifySingInButton() {
+    public void verifyCartButton() {
 
     }
 
