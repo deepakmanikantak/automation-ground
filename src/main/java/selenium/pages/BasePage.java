@@ -1,21 +1,24 @@
 package selenium.pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class BasePage {
 
     WebDriver driver;
 
-
-    String yourLogoId = "header_logo";
-
+    @FindBy(id = "header_logo")
+    public WebElement homePageLogo;
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
 
     public boolean isLogoPresent() {
-       return driver.findElement(By.id(yourLogoId)).isDisplayed();
+        return homePageLogo.isDisplayed();
     }
+
 }
